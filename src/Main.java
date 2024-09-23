@@ -2,24 +2,24 @@ public class Main {
     public static void main(String[] args) {
 
         // Task #1
-        for (int one = 1; one <= 10; one++) {
-            System.out.println(one);
+        for (int a = 1; a <= 10; a++) {
+            System.out.println(a);
         }
 
         // Task #2
-        for (int two = 10; two >= 1; two--) {
-            System.out.println(two);
+        for (int b = 10; b >= 1; b--) {
+            System.out.println(b);
         }
 
         // Task #3
         // если считать, что 0 - четное число
-        for (int three = 0; three < 17; three += 2) {
-            System.out.println(three);
+        for (int c = 0; c < 17; c += 2) {
+            System.out.println(c);
         }
 
         // Task #4
-        for (int four = 10; four >= -10; four--) {
-            System.out.println(four);
+        for (int d = 10; d >= -10; d--) {
+            System.out.println(d);
         }
 
         // Task #5
@@ -28,13 +28,13 @@ public class Main {
         }
 
         // Task #6
-        for (int six = 7; six <= 98; six += 7) {
-            System.out.println(six);
+        for (int e = 7; e <= 98; e += 7) {
+            System.out.println(e);
         }
 
         // Task #7
-        for (int seven = 1; seven <= 512; seven *= 2) {
-            System.out.println(seven);
+        for (int f = 1; f <= 512; f *= 2) {
+            System.out.println(f);
         }
 
         // Task #8
@@ -66,9 +66,9 @@ public class Main {
         */
 
         // Task #10
-        for (int tenth = 1; tenth <= 10; tenth++) {
-            int multiplication = 2 * tenth;
-            System.out.println("2 * " + tenth + " = " + multiplication);
+        for (int g = 1; g <= 10; g++) {
+            int multiplication = 2 * g;
+            System.out.println("2 * " + g + " = " + multiplication);
         }
     }
 }
